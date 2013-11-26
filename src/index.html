@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="ja_JP">
+<head>
+  <meta charset="UTF-8">
+  <title>grunt-usemin Sample</title>
+
+  <!-- CSS 定義 -->
+  <!-- build:css /css/style.min.css -->
+  <link rel="stylesheet" href="/css/reset.css"/>
+  <link rel="stylesheet" href="/css/layout.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <!-- endbuild -->
+
+</head>
+<body>
+
+  <h1>grunt-usemin 出力サンプル</h1>
+  <p>
+    <a href="https://github.com/yeoman/grunt-usemin">grunt-usemin</a>の出力サンプルです。 <br/>
+    このページのソースコードを表示しています。
+  </p>
+
+
+  <!-- JavaScript 定義 -->
+  <!-- build:js /js/apps.min.js -->
+  <script src="/js/main1.js"></script>
+  <script src="/js/main2.js"></script>
+  <script src="/js/main3.js"></script>
+  <!-- endbuild -->
+
+  <!-- ソースコード表示用 -->
+  <script src="//codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+  <script>
+    (function(d,w,$){
+      $(function(){
+        var code = $( "<pre><code></code></pre>" );
+        code.text($("html").html());
+        console.log(code);
+        $("body").append(code);
+      })
+    })( document, window, jQuery )
+  </script>
+
+</body>
+</html>

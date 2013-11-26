@@ -1,0 +1,23 @@
+html{
+  background-color: #666;
+}
+
+body {
+  border: solid #000000 1px;
+  color: #000;
+  background-color: #fff;
+  padding: 1em;
+}
+
+pre {
+  border: solid #fff 1px;
+  background-color: #000;
+  color: #fff;
+  margin: 2em;
+  padding: 2em;
+
+  height: 500px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}

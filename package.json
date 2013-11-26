@@ -1,0 +1,38 @@
+{
+  "name": "grunt-usemin-sample",
+  "version": "0.0.1",
+  "description": "grunt-usemin sample set",
+  "main": "npm start",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "connect-livereload": "~0.3.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "matchdep": "~0.3.0",
+    "grunt-usemin": "~2.0.2",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "scripts": {
+    "start": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kamiyam/grunt-usemin-sample.git"
+  },
+  "keywords": [
+    "grunt",
+    ""
+  ],
+  "author": "kamiyam",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kamiyam/grunt-usemin-sample/issues"
+  }
+}
